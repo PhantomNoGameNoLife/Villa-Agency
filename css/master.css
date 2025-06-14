@@ -1,25 +1,15 @@
 /* ---------------------------------------------
 Table of contents
 ------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
+01. global styles
+02. navbar
+03. header
+04. features
+05. testimonials
+06. contact
+07. footer
 
 --------------------------------------------- */
-/* 
-
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
-
 
 /* 
 ---------------------------------------------
