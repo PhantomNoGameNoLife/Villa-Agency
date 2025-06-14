@@ -1,5 +1,10 @@
 /* Responsive Design */
 @media (max-width: 991px) {
+    .sub-navbar ul.info li {
+        margin: 0;
+        padding: 0;
+    }
+
     .navbar-nav {
         background-color: #f1f0fe;
         border-radius: 0 0 25px 25px;
@@ -30,13 +35,40 @@
         margin: auto;
         text-align: center;
     }
+
+    .carousel-caption h2 {
+        width: 70%;
+    }
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    ul.info {
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+    ul.social-links {
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+
+    .sub-navbar ul.info li {
+        font-size: .75rem;
+        row-gap: 5px;
+    }
+
+    .carousel-caption h2 {
+        width: 100%;
+    }
+}
 
 @media (max-width: 575.98px) {
     .navbar-collapse.show {
         width: 100%;
         top: 76px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 2rem;
     }
 }
